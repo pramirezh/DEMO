@@ -1,4 +1,3 @@
-import org.apache.log4j.PropertyConfigurator;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -8,15 +7,14 @@ public class Log4ShellEjemplo1 {
 
     public static void main(String[] args) {
 
-
         //Creola clase encargada de las bitacoras
-        Logger logger = LogManager.getLogger(Main.class);
+        Logger logger = LogManager.getLogger(Log4ShellEjemplo1.class);
 
         //Creo la clase para leer stdin
         Scanner in = new Scanner(System.in);
 
         //Presetacion de la aplicación
-        System.out.println("Bienvenido a la aplicación, por favor indique su usuario.");
+        System.out.println("Bienvenido a la aplicacion, por favor indique su usuario.");
         System.out.println();
 
         //Solictud de usuario
