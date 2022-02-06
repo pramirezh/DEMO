@@ -4,7 +4,7 @@ Ejemplos de estudio para la vulnerabilidad Log4Shell
 
 Log4Shell fue (¿es?) una vulnerabilidad descubierta a finales de noviembre del 2021 (CVE-2021-44228) por la que un atacante podría ejecutar código malicioso dentro de un servidor ajeno de una forma extremadamente simple y que casi puso internet patas arriba. Vamos a analizar el tema técnicamente.
 
-##Recursos para este artículo
+## Recursos para este artículo
 
 https://desdelashorasextras.blogspot.com/2022/02/analisis-tecnico-de-la-vulnerabilidad.html
 
